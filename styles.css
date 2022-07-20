@@ -1,0 +1,320 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.A{
+    color: rgb(25, 25, 255);
+}
+.win{
+    color: aqua;
+}
+
+.toppart{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(72, 46, 46); */
+    height: 100px;
+     /* flex-wrap: wrap;  */
+    width: 70%;
+    margin: auto;
+
+}
+
+.topbody{
+    width: 341px;
+    display: flex;
+}
+
+.imgg{
+    margin-top: 5px;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+
+.img{
+    display: 30%;
+    margin-left: 10px;
+}
+
+.data{
+    display: 70%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;  */
+    justify-content: center;
+}
+
+p{
+    margin: 10px;
+}
+
+.maintext{
+    color: black;
+    font-weight: 1000;
+    text-transform: bold;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    margin-inline: 10px;
+}
+
+.ltext{
+    color: rgb(154, 150, 150);
+    margin: 0;
+    padding: 0;
+    margin-inline: 10px;
+    /* margin-top: -30px; */
+}
+
+
+
+
+
+
+.lower{
+    display: flex;
+    /* flex-wrap: wrap;  */
+    width: 70%;
+    height: 60vh;
+    margin: auto;
+    /* background-color: red; */
+    margin-top: 40px;
+
+}
+
+.left{
+     flex: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    /* width: 300px;
+    height: 750px; */
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+.middle{
+     flex: 60%; 
+    /* background-color: rgb(54, 21, 182); */
+    /* width: 650px;
+    height: 750px; */
+    position: relative;
+    /* background-position: right; */
+    background-size: cover;
+    margin-inline: 20px;
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(gl.jpg);
+    border-radius: 10px;
+}
+.right{
+     flex: 30%;
+    /* background-color: rgb(255, 0, 119); */
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.top{
+    flex: 45%;
+    position: relative;
+    /* background: pink; */
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(f.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 350px; */
+    border-radius: 10px;
+
+}
+
+.bottom{
+    flex: 45%;
+    margin-top: 5%;
+    position: relative;
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(f.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 350px; */
+    border-radius: 10px;
+}
+
+.innertextt{
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    margin:17px;
+    margin-bottom: 2px;
+}
+
+
+
+.head span{
+    font-weight: 600;
+    padding: 4px 8px;
+    font-size: 90%;
+    border-radius: 10px;
+    background: purple;
+  
+}
+
+.in{
+    font-size: 100%;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.l{
+    font-size: 220%;
+    line-height: 35px;
+}
+
+.date{
+    font-size: 90%;
+}
+
+#b1{
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(prl1.jpg);
+}
+
+#t2{
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(watch.jpg);
+}
+
+
+#b2{
+    background-image: linear-gradient(0deg,black 1%,rgba(255,255,255,0.262)),url(c.jpg);
+}
+
+#food span{
+    background: green;
+}
+
+#tech span{
+    background: orange;
+}
+
+#sports span{
+    background: red;
+}
+
+.nav-link{
+    color: black;
+}
+
+#navme{
+    /* color: rgb(172, 22, 22); */
+    font-weight: 800;
+}
+
+
+#atlas{
+    font-weight: 800;
+    font-size: 170%;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .lower{
+        flex-wrap: wrap;
+    }
+
+    .right{
+        width: 300px;
+        height: 750px;
+    }
+
+    .left{
+        width: 300px;
+        height: 750px;
+    }
+
+  
+
+    .bottom{
+        height: 350px;
+    }
+
+    .top{
+        height: 350px;
+    }
+
+    .toppart{
+        height: 400px;
+        flex-wrap: wrap;
+    }
+
+    .l{
+        font-style: 150%;
+    }
+
+    .middle{
+        width: 368px;
+        height: 350px;
+    }
+
+    header{
+        display: none;
+    }
+
+    .middle{
+        width:368px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+.maintext{
+font-size: 70%;
+}
+
+.ltext{
+    font-size: 70%;
+}
+
+
+
+.in{
+    font-size: 70%;
+}
+
+.l{
+    font-size: 150%;
+}
+
+.date{
+    font-size: 70%;
+}
+
+.head{
+    font-size: 70%;
+}
+
+.imgg{
+    height: 55px;
+    width: 55px;
+    margin-top: 25px;
+}
+
+
+}
+
+
+
+
